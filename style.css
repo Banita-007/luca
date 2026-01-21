@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card */
+.container {
+    background: #ffffff;
+    padding: 35px 30px;
+    width: 320px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Title */
+.container h1 {
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+    color: #5a4fcf;
+}
+
+/* Timer */
+#timer {
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: #333;
+    margin: 20px 0;
+}
+
+/* Buttons */
+.controls button {
+    border: none;
+    border-radius: 15px;
+    padding: 10px 18px;
+    margin: 6px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+#start {
+    background: #7dd3fc;
+    color: #033;
+}
+
+#pause {
+    background: #fde68a;
+    color: #7c4a03;
+}
+
+#reset {
+    background: #fca5a5;
+    color: #7f1d1d;
+}
+
+.controls button:hover {
+    transform: scale(1.05);
+}
+
+/* Settings */
+.settings {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.settings label {
+    font-size: 0.8rem;
+    color: #555;
+}
+
+.settings input {
+    width: 55px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+/* Status text */
+#status {
+    margin-top: 18px;
+    font-size: 0.9rem;
+    color: #666;
+}
